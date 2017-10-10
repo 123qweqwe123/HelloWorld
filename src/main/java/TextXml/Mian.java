@@ -1,4 +1,4 @@
-package TextXml;
+/*package TextXml;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -27,8 +27,8 @@ import org.jdom2.JDOMException;
 import org.jdom2.input.SAXBuilder;
 import org.jdom2.output.Format;
 import org.jdom2.output.XMLOutputter;
-/*import org.w3c.dom.Document;
-import org.w3c.dom.Element;*/
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
@@ -44,12 +44,12 @@ public class Mian {
 	
 	
 	
-	/**
+	*//**
 	 * @author 
 	 * 
 	 * SAX 解析XML文档
-	 */
-	/*public class SaxDemo implements XmlDocument {
+	 *//*
+	public class SaxDemo implements XmlDocument {
 
 	    public void parserXml(String fileName) {
 	        SAXParserFactory saxfac = SAXParserFactory.newInstance();
@@ -110,16 +110,16 @@ public class Mian {
 	            throws SAXException {
 	        System.out.print(new String(ch, start, length));
 	    }
-	}*/
+	}
 	
 	
 	
 	
-	/**
+	*//**
 	 * @author 
 	 * 
 	 * Dom4j 解析XML文档
-	 */
+	 *//*
 	 public void parserXml(String fileName) {
 	        File inputXml = new File(fileName);
 	        SAXReader saxReader = new SAXReader();
@@ -141,12 +141,12 @@ public class Mian {
 	    }
 	
 	
-	/**
+	*//**
 	 * @author 
 	 * 
 	 * JDOM 解析XML文档
 	 * 
-	 */
+	 *//*
 	public class JDomDemo  {
 
 	    public void parserXml(String fileName) {
@@ -179,12 +179,12 @@ public class Mian {
 	
 	
 	
-	/**
+	*//**
 	 * @author 
 	 * 
 	 * DOM 解析XML文档
-	 */
-	/*public class DomDemo  {
+	 *//*
+	public class DomDemo  {
 	    
 
 	    public void parserXml(String fileName) {
@@ -222,7 +222,7 @@ public class Mian {
 	            e.printStackTrace();
 	        }
 	    }
-	}*/
+	}
 	
 	
 	
@@ -304,7 +304,7 @@ public class Mian {
 		
 	
 	
-	 /*public static void DOMcreate(File file)throws Exception{
+	 public static void DOMcreate(File file)throws Exception{
 	        DocumentBuilderFactory dbf=DocumentBuilderFactory.newInstance();
 	        DocumentBuilder db=dbf.newDocumentBuilder();
 	        Document document=db.newDocument();
@@ -330,6 +330,7 @@ public class Mian {
 	        Transformer tf=tff.newTransformer();
 	        tf.setOutputProperty(OutputKeys.INDENT, "yes");
 	        tf.transform(new DOMSource(document), new StreamResult(file));
-	    }*/
+	    }
 
 }
+*/
