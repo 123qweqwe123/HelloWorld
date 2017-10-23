@@ -19,6 +19,7 @@ public class TestServiceImpl implements TestService{
 		TestExample example = new TestExample();
 		List<Test> list  = testMapper.selectByExample(example);
 		System.out.println("---");
+		System.out.println("++++");
 		return list;
 	}
 
