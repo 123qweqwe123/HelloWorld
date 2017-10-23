@@ -20,6 +20,7 @@ public class TestServiceImpl implements TestService{
 		List<Test> list  = testMapper.selectByExample(example);
 		System.out.println("---");
 		System.out.println("---");
+		System.out.println("client");
 		return list;
 	}
 
