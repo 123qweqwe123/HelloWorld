@@ -1,5 +1,8 @@
 package com.bdcor.pip.web.spem.service.impl;
-
+/**
+ * @author qianyanan
+ * 
+ */
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +15,9 @@ import com.bdcor.pip.web.spem.domain.TestExample;
 import com.bdcor.pip.web.spem.service.TestService;
 @Cacheable(value = { "fleetCache" })
 @Service("TestService")
+
 public class TestServiceImpl implements TestService{
+	
 	@Autowired
 	private TestMapper testMapper;
 	public List<Test> getlist() {
@@ -24,7 +29,8 @@ public class TestServiceImpl implements TestService{
 		System.out.println("client");
 		System.out.println("client");
 		System.out.println("client");
+		System.out.println("write");
 		return list;
 	}
-
+	
 }
