@@ -24,6 +24,7 @@ public class TestServiceImpl implements TestService{
 		System.out.println("client");
 		System.out.println("client");
 		System.out.println("client");
+		System.out.println("client2");
 		return list;
 	}
 
