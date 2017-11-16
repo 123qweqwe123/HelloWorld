@@ -44,4 +44,8 @@ public class CustomizedPropertyPlaceholderConfigurer extends
 	} 
 
 }
+<<<<<<< HEAD
 //plokiiikl,.
+=======
+//pppppppppppppppppppppppppppppsssssssss
+>>>>>>> 9f839515accaad57f7c7966702590c566b05d303
